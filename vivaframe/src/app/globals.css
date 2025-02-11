@@ -1,21 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+h2,h3,h4,p {
+    @apply font-sans tracking-wider;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+h1 {
+    @apply font-spartan font-bold;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.bg-foto {
+    background-image: url('/img/home2.png');
+    background-size: cover;
+    background-position: center;
 }

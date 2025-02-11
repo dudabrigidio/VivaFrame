@@ -9,8 +9,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        white: "#ffffff",
+        ice: "#edf0f2",
+        grayLight: "#606060",
+        grayDark: "#3c3d45",
+        blackCustom: "#231f20",
+      },
+      fontFamily: {
+        sans: ["DM Sans", "sans-serif"],
+        spartan: ["League Spartan", "sans-serif"],
       },
     },
   },
