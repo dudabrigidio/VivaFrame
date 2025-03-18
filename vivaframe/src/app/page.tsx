@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <>
-      <main className="w-max-full overflow-x-hidden">
+      <main className="min-w-full min-h-full overflow-x-hidden">
 
       
         <section className="w-full ml-0 h-screen flex text-white min-h-screen">
