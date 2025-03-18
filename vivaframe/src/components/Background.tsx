@@ -1,6 +1,6 @@
 const BackgroundVideo = () =>  {
     return (
-        <div className="absolute inset-0 w-full h-full overflow-hidden -z-10">
+        <div className="absolute inset-0 min-w-full h-full overflowx-x-hidden -z-10  w-max-full">
             <video
             className="w-full h-full object-cover"
             autoPlay
