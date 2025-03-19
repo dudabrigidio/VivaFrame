@@ -15,9 +15,9 @@ export default function Servicos() {
     }
 
     const imagesCarouselShow= [
-        "/img/show1.svg",
-        "/img/show2.svg",
         "/img/show3.svg",
+        "/img/show2.svg",
+        "/img/show1.svg",
         "/img/show4.svg",
         "/img/show5.svg",
     ];
