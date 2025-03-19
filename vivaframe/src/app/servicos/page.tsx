@@ -42,7 +42,7 @@ export default function Servicos() {
                         <CabecalhoCinza scrollToEnd={scrollToEnd} />
                     </div>
                         
-                    <div className="flex flex-row md:flex-col md:gap-y-10 justify-center items-center h-screen m-20 mb-0 pt-20 gap-x-20 md:ml-20 md:mr-8 lg:mt-0 lg:pt-0 ">
+                    <div className="flex flex-row md:flex-col justify-center items-center h-screen m-20 mb-0 pt-20 gap-x-20 md:ml-20 md:mr-8 lg:my-0 lg:py-0 ">
 
                         <div className="flex flex-col gap-y-5 my-0 justify-center items-center md:text-end h-[45%] w-[50%] lg:w-[90%] lg:h-full lg:h-[30%]">
                             <h1 className="text-[3.8rem] sm:text-[2.7rem] leading-none tracking-tight h-min">Transformando eventos em memórias inesquecíveis</h1>
@@ -55,7 +55,7 @@ export default function Servicos() {
                                 alt="cantor"
                                 width={500} 
                                 height={500} 
-                                className="h-[100%] w-[900px] h-[700px] lg:w-[100%] md:w-[90%] md:h-[200px] sm:mb-10"
+                                className="h-[100%] w-[900px] h-[700px] lg:w-[100%]  md:h-[0px] sm:mb-10"
                             />
                         </div>
                         
