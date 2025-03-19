@@ -5,7 +5,7 @@ export default function Rodape() {
     return (
         <footer >
 
-            <div className="flex flex-row w-screen text-grayDark bg-white md:mt-20">
+            <div className="flex flex-row w-screen text-grayDark bg-white md:my-20">
 
                 <div className="flex-1 flex flex-col justify-center items-center ml-10 md:ml-0 md:mt-5">
                     <h1 className="text-[3rem] md:text-[2.3rem]">CONTATOS</h1>
