@@ -35,34 +35,37 @@ export default function Servicos() {
     return (
         <main className="w-max-full overflow-x-hidden">
 
-        <section className="w-full flex text-grayDark min-h-screen">
-                <div className="flex flex-row lg:flex-col min-h-screen py-20 md:py-0 md:mt-20 ml-0 items-center overflow-hidden">
+            <section className="w-full flex text-grayDark min-h-screen md:h-auto">
+                <div className="flex flex-row lg:flex-col min-h-screen md:h-auto py-20 md:py-0 md:m-0 md:mt-10 ml-0 items-center">
                         
-                    <div className="absolute top-0 left-0 w-full" >
+                    <div className="absolute top-0 left-0 w-full">
                         <CabecalhoCinza scrollToEnd={scrollToEnd} />
                     </div>
                         
-                    <div className="flex flex-row md:flex-col justify-center items-center h-screen m-20 mb-0 pt-20 gap-x-20 md:ml-20 md:mr-8 lg:my-0 lg:py-0 ">
-
-                        <div className="flex flex-col gap-y-5 my-0 justify-center items-center md:text-end h-[45%] w-[50%] lg:w-[90%] lg:h-full lg:h-[30%]">
-                            <h1 className="text-[3.8rem] sm:text-[2.7rem] leading-none tracking-tight h-min">Transformando eventos em memórias inesquecíveis</h1>
-                            <p className=" w-[90%] text-[0.8rem] md:w-full">Oferecemos fotografias e vídeos para casamentos, festas, shows, eventos corporativos e empresariais. <br/> Nosso foco é registrar detalhes únicos e transformar cada momento em histórias contadas com qualidade</p>
+                    <div className="flex flex-row md:flex-col justify-center items-center h-screen md:h-auto m-20 md:m-5 pt-20 md:pb-0 gap-x-20 md:ml-10 lg:m-0">
+                        <div className="flex flex-col gap-y-8 my-0 justify-center items-center md:text-end h-[45%] w-[50%] lg:w-[80%] md:pt-20 md:w-full">
+                            <h1 className="text-[3.8rem] leading-none tracking-tight">
+                                Transformando eventos em memórias inesquecíveis
+                            </h1>
+                            <p className="w-[90%] text-[1.0rem] md:w-full">
+                                Oferecemos fotografias e vídeos para casamentos, festas, shows, eventos corporativos e empresariais. 
+                                <br/> Nosso foco é registrar detalhes únicos e transformar cada momento em histórias contadas com qualidade.
+                            </p>
                         </div>
                         
-                        <div className="flex md:items-center">
+                        <div className="flex md:px-5 md:pt-[20%]">
                             <Image 
                                 src="/img/servicos1.svg" 
                                 alt="cantor"
                                 width={500} 
                                 height={500} 
-                                className="h-[100%] w-[900px] h-[700px] md:hidden"
+                                className="w-[900px] h-[700px] md:w-[950px]  md:h-[400px]"
                             />
                         </div>
-                        
                     </div>
                 </div>
             </section>
-            
+
 
             <section className="flex flex-col bg-grayLight text-white p-10 py-20 px-20 gap-y-20 items-center md:p-10 md:gap-y-20">
                 <div className="flex flex-row min-h-[480px] md:flex-col md:gap-y-20 md:mt-10 md:items-center">
