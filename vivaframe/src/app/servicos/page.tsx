@@ -55,7 +55,7 @@ export default function Servicos() {
                                 alt="cantor"
                                 width={500} 
                                 height={500} 
-                                className="h-[100%] w-[900px] h-[700px] lg:w-[100%] md:w-[90%] md:h-[200px] "
+                                className="h-[100%] w-[900px] h-[700px] lg:w-[100%] md:w-[90%] md:h-[200px] sm:mb-20"
                             />
                         </div>
                         
