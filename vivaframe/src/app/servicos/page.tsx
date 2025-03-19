@@ -44,10 +44,10 @@ export default function Servicos() {
                         
                     <div className="flex flex-row md:flex-col justify-center items-center h-screen md:h-auto m-20 md:m-5 pt-20 md:pb-0 gap-x-20 md:ml-10 lg:m-0">
                         <div className="flex flex-col gap-y-8 my-0 justify-center items-center md:text-end h-[45%] w-[50%] lg:w-[80%] md:pt-20 md:w-full">
-                            <h1 className="text-[3.8rem] leading-none tracking-tight">
+                            <h1 className="text-[3.8rem] sm:text-[3.2rem] leading-none tracking-tight">
                                 Transformando eventos em memórias inesquecíveis
                             </h1>
-                            <p className="w-[90%] text-[1.0rem] md:w-full">
+                            <p className="w-[90%] text-[1rem] md:w-full">
                                 Oferecemos fotografias e vídeos para casamentos, festas, shows, eventos corporativos e empresariais. 
                                 <br/> Nosso foco é registrar detalhes únicos e transformar cada momento em histórias contadas com qualidade.
                             </p>
